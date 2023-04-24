@@ -1,0 +1,20 @@
+public enum ItemType : int
+{
+    Weapon = 0,
+    Shield = 1,
+    Gloves = 2,
+    Armor = 3,
+    Boots = 4,
+    Ring = 5,
+    Necklace = 6,
+    Earring = 7,
+    Belt = 8,
+    WeddingRing = 9,
+    SpecialRing = 10,
+    SpecialNecklace = 11,
+    SpecialEarring = 12,
+    SpecialBelt = 13,
+    SpecialSomething = 14,
+    Food,
+    Default,
+}

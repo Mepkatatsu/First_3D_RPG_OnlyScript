@@ -1,0 +1,21 @@
+public enum AttributeType
+{
+    MaxHP,
+    MaxMP,
+    TotalAttack,
+    PhysicalAttack,
+    PhysicalAttackPercent,
+    MagicalAttack,
+    MagicalAttackPercent,
+    PhysicalDefense,
+    PhysicalDefensePercent,
+    MagicalDefense,
+    MagicalDefensePercent,
+    PhysicalAttributeResist,
+    IceAttributeResist,
+    FireAttributeResist,
+    PoisonAttributeResist,
+    LightAttributeResist,
+    MaxHPPercent,
+    MaxMPPercent,
+}

@@ -14,11 +14,11 @@ namespace SingletonPattern
     {
         #region Variables
 
-        [SerializeField] Sound[] _sfx = null;
-        [SerializeField] Sound[] _bgm = null;
+        [SerializeField] private Sound[] _sfx = null;
+        [SerializeField] private Sound[] _bgm = null;
 
-        [SerializeField] AudioSource _bgmPlayer = null;
-        [SerializeField] AudioSource[] _sfxPlayer = null;
+        [SerializeField] private AudioSource _bgmPlayer = null;
+        [SerializeField] private AudioSource[] _sfxPlayer = null;
 
         private bool _isBGMChanged = false;
 
